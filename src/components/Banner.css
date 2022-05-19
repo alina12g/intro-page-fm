@@ -1,0 +1,59 @@
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  margin-top: 50px;
+}
+.banner-text {
+  width: 500px;
+}
+h1 {
+  font-size: 50px;
+}
+p {
+  margin: 40px 0;
+  color: #696969;
+  line-height: 1.8;
+}
+.btn-learn {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  outline: none;
+  border-radius: 8px;
+}
+.btn-learn:hover {
+  background-color: #fff;
+  color: #000;
+}
+.banner-logos {
+  padding-top: 115px;
+}
+.banner-logos > img {
+  display: inline-flex;
+  margin: 10px;
+  width: 100px;
+}
+.banner-image {
+  height: 500px;
+}
+@media screen and (max-width: 760px) {
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 50px;
+  }
+  h1 {
+    margin-top: 20px;
+  }
+  p {
+    text-align: center;
+  }
+  .btn-learn {
+    margin-top: 40px;
+  }
+}

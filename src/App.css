@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Epilogue", sans-serif;
+}
+.home,
+.services,
+.products,
+.contact-us,
+.sign-up,
+.marketing,
+.consulting {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  font-size: 18px;
+}
